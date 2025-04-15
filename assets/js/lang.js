@@ -64,7 +64,9 @@ const translations = {
     navProducts: 'Nos Produits',
     navContact: 'Contact',
     prodSectionTitle: 'Nos Produits',
-    address: 'Adresse'
+    address: 'Adresse',
+    marks:"Nos Marques",
+    partners:"Nos Partenaires"
 
     // ...
   },
@@ -132,6 +134,8 @@ const translations = {
     navProducts: 'Our Products',
     navContact: 'Contact',
     prodSectionTitle: 'Our Products',
-    address: 'Address'
+    address: 'Address',
+    mark:"Our Brands",
+    partners:"Our Partners"
   }
 }

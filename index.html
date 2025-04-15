@@ -457,32 +457,29 @@
         </div>
 
         <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-          <form action="forms/quote.php" method="post" class="php-email-form">
+          <form id="contact-form"  method="post" class="php-email-form">
             <h3 data-i18n="contactUs">Contactez-nous</h3>
             <p></p>
             <div class="row gy-3">
 
               <div class="col-12">
-                <input type="text" name="name" class="form-control" placeholder="Nom" required="">
+                <input type="text" id="contact-name" name="name" class="form-control" placeholder="Nom" required="">
               </div>
 
               <div class="col-12 ">
-                <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                <input type="email" id="contact-email" class="form-control" name="email" placeholder="Email" required="">
               </div>
 
               <div class="col-12">
-                <input type="text" class="form-control" name="phone" placeholder="Telephone" required="">
+                <input type="text" id="contact-phone" class="form-control" name="phone" placeholder="Telephone" required="">
               </div>
 
               <div class="col-12">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                <textarea class="form-control" id="contact-message" name="message" rows="6" placeholder="Message" required=""></textarea>
               </div>
 
               <div class="col-12 text-center">
-                <div class="loading" data-i18n="loading">Chargement...</div>
-                <div class="error-message"></div>
-                <div class="sent-message" data-i18n="loadingMsg">Votre demande de devis a été envoyée avec succès. Merci !</div>
-
+               
                 <button type="submit" data-i18n="send">Envoyer</button>
               </div>
 
@@ -495,6 +492,67 @@
     </div>
 
   </section><!-- /Get Started Section -->
+
+
+  <!-- PARTENAIRES -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h3 class="text-center mb-4" data-i18n="partners">Nos Partenaires</h3>
+    <div class="slider-wrapper">
+      <div class="slider infinite-slide">
+        <img src="./assets/img/photos/marques_partenaires/14.jpg" alt="Marque 1" />
+        <img src="./assets/img/photos/marques_partenaires/15.jpg" alt="Marque 2" />
+        <img src="./assets/img/photos/marques_partenaires/16.jpg" alt="Marque 3" />
+        <img src="./assets/img/photos/marques_partenaires/17.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/18.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/19.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/20.jpg" alt="Marque 4" />
+        <!-- duplique les logos pour l'effet loop -->
+        <img src="./assets/img/photos/marques_partenaires/21.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/22.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/23.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/24.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/25.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/26.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/27.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/28.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/29.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/30.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/31.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/32.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/33.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/34.jpg" alt="Marque 4" />
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUES -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <h3 class="text-center mb-4" data-i18n="mark">Nos Marques</h3>
+    <div class="slider-wrapper">
+      <div class="slider infinite-slide">
+        <img src="./assets/img/photos/marques_partenaires/0.jpg" alt="Marque 1" />
+        <img src="./assets/img/photos/marques_partenaires/1.jpg" alt="Marque 2" />
+        <img src="./assets/img/photos/marques_partenaires/2.jpg" alt="Marque 3" />
+        <img src="./assets/img/photos/marques_partenaires/3.jpg" alt="Marque 4" />
+        <!-- duplique pour effet loop -->
+        <img src="./assets/img/photos/marques_partenaires/4.jpg" alt="Marque 1" />
+        <img src="./assets/img/photos/marques_partenaires/5.jpg" alt="Marque 2" />
+        <img src="./assets/img/photos/marques_partenaires/6.jpg" alt="Marque 3" />
+        <img src="./assets/img/photos/marques_partenaires/7.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/8.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/9.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/10.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/11.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/12.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/13.jpg" alt="Marque 4" />
+      </div>
+    </div>
+  </div>
+</section>
 
 
   </main>
@@ -591,6 +649,59 @@
   <script src="assets/js/main.js"></script>
   <script src="./assets/js/lang.js"></script>
   <script src="./assets/js/lang-handler.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+  ></script>
+
+  <script type="text/javascript">
+    // Assurez-vous d'initialiser EmailJS avec votre user ID
+    emailjs.init('ZPM3ppBW8KRvZhutX') // Remplacez "your_user_id" par votre ID d'utilisateur EmailJS
+
+    // Cibler le formulaire et soumettre les données
+    document
+      .getElementById('contact-form')
+      .addEventListener('submit', function (event) {
+        event.preventDefault() // Empêcher le comportement par défaut (rafraîchissement de la page)
+
+        // Afficher l'animation de chargement
+        // document.getElementById('loading-text').style.display = 'block'
+
+        // Récupérer les valeurs du formulaire
+        var formData = {
+          from_name: document.getElementById('contact-name').value,
+          reply_to: document.getElementById('contact-email').value,
+          phone: document.getElementById('contact-phone').value,
+          message: document.getElementById('contact-message').value
+        }
+
+        // Envoyer les données à EmailJS
+        emailjs.send('service_gck7oro', 'template_g0a8ukp', formData).then(
+          function (response) {
+            // Lorsque l'email est envoyé avec succès
+            console.log('Success', response)
+            Swal.fire({
+        title: 'Bonjour !',
+        text: 'Votre message a été envoyé avec succès !',
+        icon: 'success',
+        confirmButtonText: 'OK'
+      });
+          
+            // document.getElementById('loading-text').style.display = 'none' // Cacher l'animation de chargement
+            document.getElementById('contact-form').reset() // Réinitialiser le formulaire
+          },
+          function (error) {
+            // En cas d'erreur
+            console.log('Error', error)
+            alert("Erreur lors de l'envoi du message. Veuillez réessayer.")
+            document.getElementById('loading-text').style.display = 'none' // Cacher l'animation de chargement
+          }
+        )
+      })
+  </script>
 </body>
 
 </html>

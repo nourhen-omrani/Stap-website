@@ -22,15 +22,4 @@ document.getElementById("langSelector").addEventListener("change", function () {
     // translateService.use(lang); // pour Angular avec ngx-translate
   }
 
-  window.addEventListener("scroll", function () {
-    const navbar = document.querySelector(".navbar");
-    const langBtn = document.querySelector(".language-selector .btn");
-
-    if (window.scrollY > 50) {
-      navbar.classList.add("navbar-scrolled");
-      langBtn.classList.add("lang-scrolled");
-    } else {
-      navbar.classList.remove("navbar-scrolled");
-      langBtn.classList.remove("lang-scrolled");
-    }
-  });
+ 
