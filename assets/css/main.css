@@ -153,10 +153,7 @@ h6 {
   z-index: 997;
 }
 
-.header .logo img {
-  max-height: 100px;
-  margin-right: 100px;
-}
+
 
 .header .logo h1 {
   font-size: 24px;
@@ -190,6 +187,11 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 @media (min-width: 1200px) {
+  .header .logo img {
+    max-height: 100px;
+    margin-right: 100px;
+  }
+
   .navmenu {
     padding: 0;
   }
@@ -324,6 +326,10 @@ h6 {
 
 /* Mobile Navigation */
 @media (max-width: 1199px) {
+.header .logo img {
+  max-height: 80px;
+  margin-right: 80px;
+}
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;
@@ -446,6 +452,7 @@ h6 {
   .mobile-nav-active .navmenu>ul {
     display: block;
   }
+ 
 }
 
 /*--------------------------------------------------------------
@@ -1699,6 +1706,7 @@ section,
 .about .about-img {
   min-height: 400px;
   position: relative;
+  margin-top: 150px;
 }
 
 @media (min-width: 992px) {
