@@ -1709,6 +1709,13 @@ section,
   margin-top: 150px;
 }
 
+.pruduct {
+width: 50px !important;
+height: 50px !important;
+
+}
+
+
 @media (min-width: 992px) {
   .about .about-img {
     position: absolute;
