@@ -1360,11 +1360,16 @@ section,
 }
 
 .projects .portfolio-content {
+
   position: relative;
   overflow: hidden;
+
 }
 
 .projects .portfolio-content img {
+  width: 100%;
+  height: 500px; /* Tu peux ajuster cette valeur selon la taille souhaitée */
+  object-fit: cover;
   transition: 0.3s;
 }
 
