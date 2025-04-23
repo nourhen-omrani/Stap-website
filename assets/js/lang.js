@@ -66,7 +66,8 @@ const translations = {
     prodSectionTitle: 'Nos Produits',
     address: 'Adresse',
     marks:"Nos Marques",
-    partners:"Nos Partenaires"
+    partners:"Nos Partenaires",
+    access: "Accéder"
 
     // ...
   },
@@ -136,6 +137,7 @@ const translations = {
     prodSectionTitle: 'Our Products',
     address: 'Address',
     mark:"Our Brands",
-    partners:"Our Partners"
+    partners:"Our Partners",
+    access: "Access the B2B"
   }
 }

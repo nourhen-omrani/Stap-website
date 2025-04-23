@@ -2918,3 +2918,13 @@ height: 50px !important;
     transform: translateX(-50%);
   }
 }
+
+.get-started #b2b {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 4px;
+  width: 400px;
+}
