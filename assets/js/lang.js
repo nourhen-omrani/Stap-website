@@ -69,8 +69,8 @@ const translations = {
     partners:"Nos Partenaires",
     access: "Accéder",
     contactQuest:"Une question, une commande ou une collaboration ?",
-    contactQuestDesc:"Nous sommes à votre écoute ! Remplissez le formulaire ci-dessous ou écrivez-nous directement sur WhatsApp."
-
+    contactQuestDesc:"Nous sommes à votre écoute ! Remplissez le formulaire ci-dessous ou écrivez-nous directement sur WhatsApp.",
+    navB2B:"Espace client"
 
     // ...
   },
@@ -143,6 +143,7 @@ const translations = {
     partners:"Our Partners",
     access: "Access the B2B",
     contactQuest:"Have a question, want to place an order, or collaborate with us?",
-    contactQuestDesc:"We’re here for you! Fill out the form below or message us directly on WhatsApp."
+    contactQuestDesc:"We’re here for you! Fill out the form below or message us directly on WhatsApp.",
+    navB2B:"Client Portal"
   }
 }
