@@ -44,10 +44,23 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" alt="">
+        <img id="logo-img" src="assets/img/logo.png" alt="Logo">
         <!-- <h1 class="sitename">Stap</h1> <span>.</span> -->
       </a>
-
+      <script>
+        window.addEventListener('scroll', function() {
+          const header = document.getElementById('header');
+          const logo = document.getElementById('logo-img');
+      
+          if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+            logo.src = 'assets/img/logo.png';
+          } else {
+            header.classList.remove('scrolled');
+            logo.src = 'assets/img/logo-stap-blanc.png';
+          }
+        });
+      </script>
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active" data-i18n="navHome">Acceuil</a></li>
@@ -182,7 +195,38 @@ Accédez à notre espace B2B 24h/24 et profitez d’un service conçu pour optim
 
   </section><!-- /Hitoire Section -->
  
+    <!-- Get Started Section -->
+    <section id="contact" class="get-started section">
+    
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+       <h2 data-i18n="contact">Espace client B2B</h2>
+     </div><!-- End Section Title -->
    
+       <div class="container">
+   
+         <div class="row justify-content-between gy-4">
+           <div class="col-lg-12 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+             <div class="content">
+               <h3 data-i18n="contactTitle"> Un lien accès direct </h3>
+               <p data-i18n="contactDesc">STAP met à la disposition de ses clients professionnels un espace B2B dédié, accessible en ligne 24h/24. Cette plateforme intuitive permet de passer les commandes rapidement et suivre leurs livraisons. Un service pensé pour simplifier la gestion quotidienne des professionnels de l’automobile et leur faire gagner un temps précieux.
+               </p>
+               <div class="col-12">
+                  <a href="https://b2b.stark-solutions.online/account/login">
+                    <button data-i18n="access" id="b2b" type="submit" data-i18n="send">Accéder</button>
+   
+                  </a>
+               </div>
+             </div>
+           </div>
+   
+         
+   
+         </div>
+   
+       </div>
+   
+     </section><!-- /Get Started Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section light-background">
@@ -519,8 +563,8 @@ Accédez à notre espace B2B 24h/24 et profitez d’un service conçu pour optim
       <div class="row justify-content-between gy-4">
         <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
           <div class="content">
-            <h3 data-i18n="contactTitle">Espace client B2B : Un lien accès direct </h3>
-            <p data-i18n="contactDesc">STAP met à la disposition de ses clients professionnels un espace B2B dédié, accessible en ligne 24h/24. Cette plateforme intuitive permet de passer les commandes rapidement et suivre leurs livraisons. Un service pensé pour simplifier la gestion quotidienne des professionnels de l’automobile et leur faire gagner un temps précieux.
+            <h3 data-i18n="contactQuest">Une question, une commande ou une collaboration ?</h3>
+            <p data-i18n="contactQuestDesc">Nous sommes à votre écoute ! Remplissez le formulaire ci-dessous ou écrivez-nous directement sur WhatsApp.
             </p>
             <div class="col-12">
                <a href="https://b2b.stark-solutions.online/account/login">
@@ -577,27 +621,27 @@ Accédez à notre espace B2B 24h/24 et profitez d’un service conçu pour optim
     </h3>
     <div class="slider-wrapper">
       <div class="slider infinite-slide">
-        <img src="./assets/img/photos/marques_partenaires/14.png" alt="Marque 1" />
-        <img src="./assets/img/photos/marques_partenaires/15.jpg" alt="Marque 2" />
-        <img src="./assets/img/photos/marques_partenaires/16.jpg" alt="Marque 3" />
-        <img src="./assets/img/photos/marques_partenaires/17.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/19.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/20.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/frap.png" alt="frap" />
+        <img src="./assets/img/photos/marques_partenaires/gates.png" alt="gates" />
+        <img src="./assets/img/photos/marques_partenaires/siaam.png" alt="siaam" />
+        <img src="./assets/img/photos/marques_partenaires/sachs.png" alt="sachs" />
+        <img src="./assets/img/photos/marques_partenaires/samyung.png" alt="samyung" />
+        <img src="./assets/img/photos/marques_partenaires/hanon.png" alt="hanon" />
         <!-- duplique les logos pour l'effet loop -->
-        <img src="./assets/img/photos/marques_partenaires/21.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/22.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/23.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/24.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/25.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/26.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/27.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/28.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/29.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/30.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/31.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/32.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/33.jpg" alt="Marque 4" />
-        <img src="./assets/img/photos/marques_partenaires/34.jpg" alt="Marque 4" />
+        <img src="./assets/img/photos/marques_partenaires/doowon.png" alt="doowon" />
+        <img src="./assets/img/photos/marques_partenaires/luk.png" alt="luk" />
+        <img src="./assets/img/photos/marques_partenaires/iinaa.png" alt="iinaa" />
+        <img src="./assets/img/photos/marques_partenaires/bsg.png" alt="bsg" />
+        <img src="./assets/img/photos/marques_partenaires/valeo.png" alt="valeo" />
+        <img src="./assets/img/photos/marques_partenaires/kia.png" alt="kia" />
+        <img src="./assets/img/photos/marques_partenaires/suzuki.png" alt="suzuki" />
+        <img src="./assets/img/photos/marques_partenaires/mahindra.png" alt="mahindra" />
+        <img src="./assets/img/photos/marques_partenaires/hyundai.png" alt="hyundai" />
+        <img src="./assets/img/photos/marques_partenaires/hyundai-2.png" alt="hyundai" />
+        <img src="./assets/img/photos/marques_partenaires/gm.png" alt="gm" />
+        <img src="./assets/img/photos/marques_partenaires/shell.png" alt="shell" />
+        <img src="./assets/img/photos/marques_partenaires/total.png" alt="total" />
+        <img src="./assets/img/photos/marques_partenaires/castrol.png" alt="castrol" />
 
       </div>
     </div>

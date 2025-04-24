@@ -188,7 +188,7 @@ h6 {
 /* Desktop Navigation */
 @media (min-width: 1200px) {
   .header .logo img {
-    max-height: 100px;
+    max-height: 150px;
     margin-right: 100px;
   }
 
